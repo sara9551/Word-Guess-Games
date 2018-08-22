@@ -1,6 +1,6 @@
 body {
     background-color: #f2722b;
-    background-image: url(https://whesjournalism.com/wp-content/uploads/2017/10/halloween-1757492_960_720-900x692.jpg);
+    background-image: url('../images/image-1.jpg');
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     color: white;
     height:100%;
@@ -16,16 +16,16 @@ h2 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	text-transform: uppercase;
-  margin:5px 0;
   color: #94d449;
 }
 
 .container {
-  margin: 50px !important;
+  margin: 200px auto !important;
   width: 500px !important;
-  margin: 0 auto;
   font-size: 15px;
   background-color: #f2722b;
-  text-align: justify;
+  text-align: center;
+  position: relative;
+  margin-top: 50%;
 }
 
