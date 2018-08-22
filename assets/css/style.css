@@ -8,7 +8,7 @@ body {
     font-size:18px;
   }
 
-#letter {
+#button, input, optgroup, select, textarea {
   color: black;
 }
 
