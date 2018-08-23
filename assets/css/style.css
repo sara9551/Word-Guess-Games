@@ -85,4 +85,7 @@ h3 {
 p {
   background-color: black;
   float: center;
+  font-family:'Creepster', cursive;
+  font-weight: bold;
+  font-size: 40px;
 }
