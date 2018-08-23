@@ -21,7 +21,7 @@ var ans;
 var count = 0;
 var answerArray = [];
 
-function startUp() {
+function initiate() {
   for (var i = 0; i < halloweenType.length; i++) {
     answerArray[i] = "_";
   }
