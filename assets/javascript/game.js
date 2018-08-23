@@ -18,39 +18,41 @@ var halloweenTypeArr = [
 var halloweenType = halloweenTypeArr[Math.floor(Math.random() * halloweenTypeArr.length)];
 console.log(halloweenType);
 
-var letter;
 var ans;
 var count = 0;
-var answerArray = [];
+var underscores = [];
 
 function initiate() {
   for (var i = 0; i < halloweenType.length; i++) {
-    answerArray[i] = "_";
+    underscores[i] = "_ "
   }
-console.log(answerArray);
+  console.log(underscores);
 
-  ans = answerArray.join(" ");
+  ans = underscores.indexOf(ans);
 
-  document.getElementById("answer").innerHTML = ans;
+  document.getElementById("answer").innerHTML = underscores;
 }
 
 function letter() {
   var letter = document.getElementById("letter").value;
+  console.log(letter)
 
   if (letter.length > 0) {
     for (var i = 0; i < halloweenType.length; i++) {
       if (halloweenType[i] === letter) {
-        answerArray[i] = letter;
+        underscores[i] = letter;
       }
     }
+    console.log(underscores)
 
-    document.getElementById("answer").innerHTML = answerArray.join(" ");
+    document.getElementById("answer").innerHTML = underscores;
   }
+  console.log(ans);
 
-    count++;
+  count++;
   if (count >= 10) {
     alert("You're lives have ended, you have lost. Please, refresh the page.");
     console.log(count);
   }
 
-}
+};
