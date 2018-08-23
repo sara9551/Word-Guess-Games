@@ -44,6 +44,7 @@ function letter() {
     document.getElementById("guesses").innerHTML = "Guesses: " + count;
     document.getElementById("answer").innerHTML = answerArray.join(" ");
   }
+  
   if(count>=10) {
     alert ("You're lives have ended, you have lost. Please, refresh the page.");
   }
