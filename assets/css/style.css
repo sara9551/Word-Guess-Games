@@ -19,29 +19,28 @@ h1 {
 
 h2 {
 	font-family:'Creepster', cursive;
-	font-weight: 80;
 	text-transform: uppercase;
   color: #94d449;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 50px;
+  text-align: center;
 }
 
 .container {
   margin: 200px auto !important;
-  width: 960px !important;
+  width: 1200px !important;
   font-size: 15px;
   background-color: #f2722b;
   text-align: center;
-  position: relative;
   margin-top: 50%;
   line-height: 1.6em;
 }
 
 .container-small {
-  margin: 100px auto !important;
-  width: 400px !important;
+  margin: 150px auto !important;
+  width: 350px !important;
   background-color: #94d449;
-  text-align: justify;
+  text-align: center;
   line-height: 1.6em;
   font-weight: bold;
 }
@@ -54,4 +53,30 @@ h3 {
   font-weight: bold;
   text-align: center;
   font-size: 40px;
+}
+
+.autoResizeImage {
+  max-width: 250px;
+  height: auto;
+  width: 250px;
+  text-align: center !important;
+  align-items: center;
+  position: inherit;
+}
+
+.container-small2 {
+  margin: 90px auto !important;
+  width: 250px !important;
+  text-align: justify;
+  line-height: 1.6em;
+  font-weight: bold;
+}
+
+.container3 {
+  margin: 0px auto !important;
+  width: 350px !important;
+  text-align: center;
+  line-height: 1.6em;
+  font-weight: bold;
+  border-color: #94d449;
 }

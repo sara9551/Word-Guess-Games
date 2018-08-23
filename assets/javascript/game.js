@@ -27,6 +27,7 @@ function startUp() {
   }
 
   ans = answerArray.join(" ");
+
   document.getElementById("answer").innerHTML = ans;
 }
 
@@ -34,19 +35,19 @@ function letter() {
   var letter = document.getElementById("letter").value;
 
   if (letter.length > 0) {
-    for (var i = 0; i < halloweenType.length; i ++) {
+    for (var i = 0; i < halloweenType.length; i++) {
       if (halloweenType[i] === letter) {
         answerArray[i] = letter;
       }
     }
 
-    count++;
-    document.getElementById("guesses").innerHTML = "Guesses: " + count;
     document.getElementById("answer").innerHTML = answerArray.join(" ");
   }
-  
-  if(count>=10) {
-    alert ("You're lives have ended, you have lost. Please, refresh the page.");
+
+    count++;
+
+  if (count >= 10) {
+    alert("You're lives have ended, you have lost. Please, refresh the page.");
   }
 
 }
