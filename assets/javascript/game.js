@@ -17,6 +17,7 @@ var halloweenTypeArr = [
 
 var halloweenType = halloweenTypeArr[Math.floor(Math.random() * halloweenTypeArr.length)];
 
+var letter;
 var ans;
 var count = 0;
 var answerArray = [];
@@ -45,7 +46,6 @@ function letter() {
   }
 
     count++;
-
   if (count >= 10) {
     alert("You're lives have ended, you have lost. Please, refresh the page.");
   }
