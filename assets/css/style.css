@@ -6,26 +6,52 @@ body {
     height:100%;
     text-align:center;
     font-size:18px;
+    line-height: 1.6em;
   }
 
 #button, input, optgroup, select, textarea {
   color: black;
 }
 
+h1 {
+  font-family: 'Nosifer', cursive;
+}
+
 h2 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-family:'Creepster', cursive;
+	font-weight: 80;
 	text-transform: uppercase;
   color: #94d449;
+  font-weight: bold;
+  font-size: 80px;
 }
 
 .container {
   margin: 200px auto !important;
-  width: 500px !important;
+  width: 960px !important;
   font-size: 15px;
   background-color: #f2722b;
   text-align: center;
   position: relative;
   margin-top: 50%;
+  line-height: 1.6em;
 }
 
+.container-small {
+  margin: 100px auto !important;
+  width: 400px !important;
+  background-color: #94d449;
+  text-align: justify;
+  line-height: 1.6em;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Creepster', cursive;
+	font-weight: 80;
+	text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+}
