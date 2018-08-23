@@ -46,6 +46,7 @@ function letter() {
     console.log(underscores)
 
     document.getElementById("answer").innerHTML = underscores;
+    //document.getElementById("answer").reset(underscores); could not make it work
   }
   console.log(ans);
 
